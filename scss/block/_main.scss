@@ -1,0 +1,87 @@
+.main{
+    width: 100%;
+    height: 80%;
+}
+.title{
+    width: 100%;
+    height: 20%;
+    border: var(--border);
+    text-align: center;
+}
+.title-text{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.908);
+    transition: 1s;
+}
+.input-control{
+    width: 100%;
+    height: 10%;
+    border: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#type{
+    width: 500px;
+    height: 35px;
+    border-top-left-radius: 20px;
+    border-end-start-radius: 20px;
+    border: none;
+    background: rgba(0, 0, 0, 0.395);
+    color: #fff;
+}
+#type:hover{
+    background: #000;
+}
+#type::placeholder{
+    padding-left: 10px;
+    color: rgb(67, 62, 62);
+}
+.inp-btn{
+    width: 100px;
+    height: 35px;
+    border: none;
+    background: rgba(0, 0, 0, 0.504);
+}
+.inp-btn:hover{
+    background: #fff;
+    color: #000;
+}
+.menu-list{
+    width: 80%;
+    height: auto;
+    border: var(--border);
+    margin: var(--margin);
+    transition: .5s;
+}
+.fall{
+    transition: 0.2s;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.item{
+    width: 80%;
+    margin: var(--margin);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.445);
+    position: sticky;
+    border-radius: 30px;
+    margin-bottom: 13px;
+}
+.meni-info{
+    font-size: 25px;
+    margin-left: 30px;
+}
+.icons{
+    margin-right: 30px;
+}
+.icons i{
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(239, 245, 232);
+}
+#delit{
+    color: red;
+}
