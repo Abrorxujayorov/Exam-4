@@ -257,14 +257,6 @@ body {
   transform-origin: 0 0; /* see note above */
 }
 
-.nonay {
-  display: none;
-} 
-
-/*# sourceMappingURL=main.css.map */
-.nonay{
-  display: none;
-}
 .cardMadal{
   width: 500px;
   height: 400px;
